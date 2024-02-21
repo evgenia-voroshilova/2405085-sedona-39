@@ -2,7 +2,7 @@
 
 * Студент: [Евгения Ворошилова](https://up.htmlacademy.ru/htmlcss/39/user/2405085).
 * Наставник: [Александр Зеновьев](https://htmlacademy.ru/profile/id198751)
-* мой проект [мой проект Седона](https://evgenia-voroshilova.github.io/2405085-sedona-39/)
+* мой проект [мой проект Седона](https://evgenia-voroshilova.github.io/2405085-sedona-39/](http://127.0.0.1:5500/index.html)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
