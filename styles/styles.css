@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format(woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-700.woff2") format(woff2);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ .button {
+  font-family: inherit;
+  background-color:#756157;
+  border: 0;
+  padding: 0;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hero {
+  background-image:  url("../image/filter.jpg"), url("../image/index-background.jpg");
+  background-color: #2a3c48;
+  color: #ffffff;
+  background-size: 100% auto cover;
+  background-repeat: no-repeat;
+  background-position: left bottom, left top;
+  height: 485px;
+}
+
+
+.header-link {
+  font-family: "PT Sans";
+  color: inherit;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  font-weight: 700;
+}
+
+.advantages-list {
+  text-align: center;
+}
+
+.contact {
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.page-footer a{
+  color: #333333
+}
+
+.pagination-link {
+ display: block;
+ background-color: #82B3D3;
+color: #ffffff;
+text-decoration: none;
+text-align: center;
+width-min: 26px;
+padding: 4px 5px;
+box-sizing: border-box;
+}
