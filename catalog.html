@@ -8,31 +8,53 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
 <body>
+  <div class="container">
     <header class="page-header">
-      <nav class="navigation">
-        <a href="index.html" aria-current="page">
-          <img class="page-header-logo" src="./image/logo.svg" alt="Седона">
-        </a>
-        <ul>
-          <li><a class="header-link" href="index.html">Главная</a></li>
-          <li><a class="header-link" href="#">О Седоне</a></li>
-          <li><a class="header-link" href="catalog.html">Гостиницы</a></li>
-        </ul>
-        <ul>
-          <li><a href="#"><span class="visually-hidden ">Поиск</span></a></li>
-          <li><a href="#"><span class="visually-hidden ">Избраное</span></a></li>
-        </ul>
-        <a href="#">Хочу сюда</a>
-      </nav>
+        <nav class="navigation">
+          <div class="logo">
+            <a href="index.html">
+              <img class="page-header-logo" src="./image/logo.svg" alt="Логотип" style="display: block;">
+            </a>
+          </div>
+          <div class="main-menu">
+            <ul class="main-menu-list">
+              <li><a class="header-link" href="index.html">Главная</a></li>
+              <li><a class="header-link" href="#">О Седоне</a></li>
+              <li><a class="header-link" href="catalog.html">Гостиницы</a></li>
+            </ul>
+          </div>
+          <div class="search-menu">
+            <ul class="search-menu-list">
+              <li>
+                <a href="#">
+                  <img src="./image/search.png" alt="">
+                  <span class="visually-hidden">Поиск</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./image/heart.png" alt="">
+                  <span class="visually-hidden">Избраное</span>
+                </a>
+            </li>
+          </ul>
+          </div>
+          <div class="header-button">
+            <button type="button" class="header-button-button">
+              Хочу сюда
+            </button>
+          </div>
+        </nav>
     </header>
+</div>
     <main>
 <section class="hero">
 <h1>Гостиницы Седоны</h1>
-<ul>
+<ul class="breadcrumb-list">
   <li>
-    <a href="index.html">на главную</a>
+    <a  href="index.html">на главную</a>
   </li>
-<li> <a href="catalog.html">гостиницы</a></li>
+<li> <a class="breadcrumb-link" href="catalog.html">гостиницы</a></li>
 </ul>
 </section>
 <section>
@@ -111,8 +133,8 @@
   </a>
   <p class="card-discription">Гостиница</p>
   <p class="card-price"> От 4000 ₽</p>
-  <a class="more-button" href="#">Подробнее</a>
-  <button class="favorite-card">В избранное</button>
+  <a class="more-button button" href="#">Подробнее</a>
+  <button class="favorite-card button button-all">В избранное</button>
   <p class="four-stars">
     <span class="visually-hidden">Отель 4 звезды</span>
   </p>
@@ -125,8 +147,8 @@
     </a>
   <p class="card-discription">Гостиница</p>
   <p class="card-price"> От 5000 ₽</p>
-  <a class="more-button" href="#">Подробнее</a>
-  <button class="favorite-card">В избранное</button>
+  <a class="more-button button" href="#">Подробнее</a>
+  <button class="favorite-card button">В избранное</button>
   <p class="four-stars">
     <span class="visually-hidden">Отель 4 звезды</span>
   </p>
@@ -139,8 +161,8 @@
     </a>
   <p class="card-discription">Гостиница</p>
   <p class="card-price"> От 2500 ₽</p>
-  <a class="more-button" href="#">Подробнее</a>
-  <button class="favorite-card">В избранное</button>
+  <a class="more-button button" href="#">Подробнее</a>
+  <button class="favorite-card button button-all">В избранное</button>
   <p class="four-stars">
     <span class="visually-hidden">Отель 3 звезды</span>
   </p>
@@ -154,8 +176,8 @@
       </a>
     <p class="card-discription">Гостиница</p>
     <p class="card-price"> От 1500 ₽</p>
-    <a class="more-button" href="#">Подробнее</a>
-    <button class="favorite-card">В избранное</button>
+    <a class="more-button button" href="#">Подробнее</a>
+    <button class="favorite-card button button-all">В избранное</button>
 <p class="four-stars">
   <span class="visually-hidden">Отель 2 звезды</span>
 </p>
@@ -166,23 +188,23 @@
 <section>
   <ul class="pagination" >
     <li><a class="pagination-link" href="">1</a></li>
-    <li><a href="">2</a></li>
-    <li><a href="">3</a></li>
-    <li><a href="">4</a></li>
-    <li><a href="">...</a></li>
-    <li><a href="">10</a></li>
+    <li><a class="pagination-link" href="">2</a></li>
+    <li><a class="pagination-link" href="">3</a></li>
+    <li><a class="pagination-link" href="">4</a></li>
+    <li><a class="pagination-link" href="">...</a></li>
+    <li><a class="pagination-link" href="">10</a></li>
   </ul>
 </section>
 <section>
-  <h2>Подпишитесь на рассылку</h2>
-  <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+  <h2 class="heading">Подпишитесь на рассылку</h2>
+  <p class="description">Только полезная информация и никакого спама, честное бойскаутское!</p>
   <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
     <label class="visually-hidden" for="subscribe-form">Укажите Ваш email</label>
     <input type="text" id="subscribe-email" name="user-email" placeholder="Ваш e-mail">
     <button class="subscribe-button" type="submit">Подписаться</button>
     </form>
 </section>
-<footer class="page-footer" data-test="footer">
+<footer class="page-footer main-container" data-test="footer">
   <ul class="social-item">
 <li class="social-list">
   <a class="social-link" href="#">
