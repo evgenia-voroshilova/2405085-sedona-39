@@ -407,3 +407,17 @@ flex-grow: 1;
 .pagination {
   list-style-type: none;
 }
+
+.hero-catalog-filter{
+background-color: #82B3D3;
+background-image: url(../image/filter.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+color: #ffffff;
+padding: 35px 35px 70px;
+}
+
+.breadcrumb-link{
+  margin: 0;
+  padding: 0;
+}
